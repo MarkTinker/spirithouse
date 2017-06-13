@@ -1,0 +1,3 @@
+[16-Oct-2011 08:26:04] PHP Warning:  require(../class.phpmailer.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/sh/public_html/hamish/includes/mailer/testemail.php on line 8
+[16-Oct-2011 08:26:04] PHP Warning:  require(../class.phpmailer.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/sh/public_html/hamish/includes/mailer/testemail.php on line 8
+[16-Oct-2011 08:26:04] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sh/public_html/hamish/includes/mailer/testemail.php on line 8

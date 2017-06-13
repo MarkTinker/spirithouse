@@ -1,0 +1,586 @@
+
+/* 
+ * ==================== ACLANDS CSS STUFF ===================================================
+ */
+  .frontpage h3 {        
+  
+    color: #353535;
+    font-family: 'LeagueGothicRegular';
+    font-size: 40px;
+    letter-spacing: 0.15em;
+    line-height: 1.09em;
+    padding-bottom: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.75);
+    text-transform: uppercase;
+    width: 100%;
+    border-top: 1px solid black; margin:23px 0 0; text-align:center; padding:0; height:24px;
+}   
+
+
+.charfix /* used to align arrows on waitlist confirm page*/
+{ 
+ font-size:150%;  
+ vertical-align: bottom;
+ }
+
+select {
+ -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "Lucida Grande","Lucida Sans Unicode",sans-serif;
+    font-size: 0.9em;
+    margin: 6px 0 10px;
+    outline: medium none;
+    padding: 4px;
+    /* background: url("../resources/cc_arrow.png") no-repeat scroll right center #FFFFFF;*/
+}
+  
+
+.frontpage h3 span { position: relative; top: -24px; padding: 0 20px; background:url(../resources/content_bg_yellownoise2.gif);}    
+                         
+.uberclear
+    {
+    float: none;
+    display: block;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    height: 1px;
+    line-height: 0;
+    font-size: 0;
+    }
+    
+.smallheadline {
+
+	font-family: Gill Sans, Verdana;
+	font-size: 11px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	}
+
+ .bordertop{
+   border-top: 1px solid black;
+}  
+
+
+
+    
+.largeheadline {
+
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: #444;
+	margin: 0;
+	padding: 0px 0px 6px 0px;
+	font-size: 51px;
+	line-height: 44px;
+	letter-spacing: -2px;
+	font-weight: bold;
+	}
+	
+.typography h4 {
+
+	font-family: Gill Sans, Verdana;
+	font-size: 11px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	}
+
+        
+.typography h3 {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: #444;
+	margin: 0;
+	padding: 0px 0px 6px 0px;
+	font-size: 30px;
+	line-height: 1.1em;
+	letter-spacing: -2px;
+	font-weight: bold;
+	 padding-bottom: 10px;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.75);
+	}
+	
+	.videocontainer {
+margin-top: 15px;
+margin-bottom: 5px;
+}
+
+
+
+.food small {
+font-family: 'Lucida Grande', sans-serif;
+color: #666666;
+font-size: 1em;
+font-style: italic;
+font-weight: normal;
+text-transform: normal;
+letter-spacing: normal;
+line-height: 1.5em;
+}
+
+.wine h3 {
+font-size: 1.2em;
+}
+
+.whitebox {
+    background-color: #F5F5F5;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2);
+    color: #A6A6A6;
+    height: 300px;
+    line-height: 14px;
+    padding: 10px;
+}
+
+.whitebox:hover {
+background-color: white;
+color: black;
+}
+
+caption {
+ color: #353535;
+    font-family: 'LeagueGothicRegular';
+    font-size: 52px;
+    line-height: 1.09em;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.75);
+    text-transform: uppercase;
+}
+
+sup {
+    font-size: x-small;
+    font-weight: 900;
+    line-height: normal;
+    vertical-align: super;}
+
+ .red {
+    /*color: #3B96A7;*/
+	color: #b84000;
+}
+
+ .teal {
+    color: #3B96A7;
+	}
+	
+ .gray{
+color: gray;
+
+}
+
+p.gray {
+color: gray;
+}
+
+
+
+table.maps td.icon {
+    width: 5em;
+}
+
+table.maps td {
+    padding-bottom: 1em;
+    padding-right: 0.5em;
+    vertical-align: top;
+}
+.maps h4{
+color: #353535;
+    font-family: 'LeagueGothicRegular';
+    font-size: 1.5em;
+    line-height: 1.09em;
+    padding-bottom: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.75);
+    text-transform: uppercase;
+    width: 100%;
+    }
+
+.shadow {
+box-shadow: 4px 6px 18px rgba(0,0,0,0.46);
+opacity: 0.75;
+}
+
+.shadow:hover{
+
+opacity: 1;
+}
+/*
+.pad{
+position: absolute;
+margin-top: 30px;
+
+}
+*/
+.tourdays {
+    border-top: 2px dashed;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.shop{
+padding-bottom: 50px;
+}
+
+.pad20 {
+padding-bottom: 20px;
+padding-top: 20px;
+
+}
+
+.shop_wrap{
+background: url("../resources/shop_bg.jpg") no-repeat;
+box-shadow: 4px 6px 18px rgba(0,0,0,0.46);
+width: 256px;
+height: 510px; 
+}
+
+
+.shop h3{
+	color: #353535;
+    font-family: 'LeagueGothicRegular';
+    font-size: 30px;
+    line-height: 1.1em;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.75);
+    text-transform: uppercase;
+
+}
+
+.shop table{
+margin-left: 20px;
+margin-top: 10px;
+}
+
+/* not used now
+.row .shopcol{
+float: left;
+min-height: 1px;
+width: 33%;
+
+}
+*/
+
+.tourdays strong {
+color: #3B96A7;
+font-weight: bolder;
+
+}
+
+.info strong{
+color: #3B96A7;
+font-weight: bolder;
+
+}
+
+
+
+#bg_crush{
+    background: url("../resources/crush-kites.png") repeat-x scroll 0 0 transparent;
+    margin-top: -25px;
+    padding-bottom: 1em;
+}
+
+#bg_viet{
+    background: url("../resources/crush-kites.jpg") repeat-x scroll 0 0 transparent ;
+    margin-top: -25px;
+    padding-bottom: 1em;
+}
+
+.specs h4 {
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+    color: #353535;
+    font-family: 'LeagueGothicRegular';
+    font-size: 30px;
+    line-height: 1.1em;
+    margin-bottom: 15px;
+    margin-top: 45px;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.75);
+    text-transform: uppercase;
+}
+
+
+.specs li {
+    border-bottom: 1px solid #fff;
+    color: #404040;
+    float: left;
+    font-size: 14px;
+    font-style: italic;
+    list-style: none outside none;
+    margin-right: 16px;
+    padding: 8px 0;
+    width: 40%;
+}
+
+.specs li strong {
+    color: #000;
+    display: block;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.specs .wide {
+    width: 98%;
+}
+
+.clear {
+clear: both;
+height: 1px;
+}
+
+
+#list_panel {
+    border: 1px solid #A2A47B;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+   
+}
+
+#list_panel div {
+    background: none repeat scroll 0 0 #EEEFDD;
+    color: #454900;
+    font-size: 10px;
+    line-height: 18px;
+    padding: 15px 10px;
+}
+
+
+
+
+.pdf {
+padding-right: 20px;
+background: url(../resources/pdficon_small.gif) no-repeat center right;
+}
+
+
+
+/* Dan's Voucher Styles */
+ label.error {  display: block; color: white; padding-left: 10px; font-size: 1.25em; background: #C00; padding: 5px; position: relative; text-shadow: 0 1px 0 black; -moz-text-shadow: 0 1px 0 black; left: -30px; -webkit-box-shadow: -2px 2px 2px rgba(0,0,0,0.3);-moz-box-shadow: -2px 2px 2px rgba(0,0,0,0.3);box-shadow: -2px 2px 2px rgba(0,0,0,0.3);}
+ 
+ 
+ .accom h2 {
+ font-family: 'LeagueGothicRegular';
+		text-transform: uppercase;
+		font-size: 30px;
+		color: #353535;
+		width: 100%;
+		text-align:center;
+		line-height: 1.09em;
+		padding-bottom: 10px;
+		background: transparent url(../resources/header_underline.png) bottom center repeat-x;
+		text-shadow: 1px 1px 0 rgba(255,255,255,0.75);
+
+ 
+ 
+ }
+
+
+.pullquote-left {
+    border-bottom: 4px solid #000000;
+    border-top: 4px solid #000000;
+    display: block;
+    float: left;
+    font-family: Georgia,"Times New Roman","Bitstream Vera Serif",serif;
+    font-size: 26px;
+    letter-spacing: -1px;
+    line-height: 29px;
+    margin: 8px 20px 10px 0;
+    padding: 15px 0;
+    width: 200px;
+}
+
+#news_blog h4 {
+border-top: dashed;
+border-width: medium;
+margin-top: 10px;
+padding-top: 10px;
+
+}
+
+.tabsection h3 {
+font-size: 1.2em;
+margin-top: 15px;
+
+}
+.tabsection p {
+	color: #424030;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 15px;
+
+}
+
+.border  { 
+background-image:url('smiley.gif');
+background-repeat:no-repeat;
+background-position: 100% 0px;
+}
+.tabsection h2 {
+font-size: 1.5em;
+border-top: dashed;
+border-width: thin;
+border-color: rgba(0,0,0,.4);
+margin-top: 15px;
+padding-top: 15px;
+padding-bottom: 10px;
+
+}
+
+/* Floating review elements */
+
+.review:hover {
+     -moz-transform: scale(1.2) rotate(-2deg); 
+    opacity: 1;
+    -moz-transition: all 0.8s ease 0s;
+}
+.review {
+	position: inherit;
+    -moz-transform-origin: 0 40px;
+    background: url("../resources/back_review.png") repeat scroll 0 0 transparent;
+    color: #505041;
+    font-size: 17px;
+    
+    line-height: 19px;  
+    padding: 20px 30px 15px 70px;
+    width: 300px;
+    z-index: 5;
+}
+
+.review cite {
+    color: #82826E;
+    display: block;
+    font-size: 0.8em;
+    padding-top: 5px;
+    text-align: right;
+    text-transform: capitalize;
+}
+
+
+.review p:before {
+content:open-quote;
+font-size:4em;
+line-height:.1em;
+margin-right:.25em;
+margin-left: -0.7em;
+vertical-align:-.4em;
+}
+.review p:after {
+content: close-quote;
+font-size:0em;
+vertical-align:-0.4em;
+
+
+}
+
+.review p {
+display: inline;
+line-height: 1.5em;
+
+}
+
+.lists ul {
+    list-style: circle;
+    }
+
+.lists ul li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+	border-bottom: 1px solid #000;
+	padding-left: 5px;
+    padding-top: 10px;
+    } 
+    
+    .lists li:hover {
+   -webkit-box-shadow:10px 10px 20px #636363;
+  	box-shadow:10px 10px 20px #636363;  
+    opacity: 1;
+    -moz-transition: all 0.8s ease 0s;
+    z-index: 99;
+}
+
+section {
+   	border-bottom: 1px solid #000;
+    color: #999999;
+    font-family: "arial",sans-serif;
+    font-size: 12px;
+    padding: 15px 0 4px 0 ;
+
+}
+
+
+.tabsection li {
+font-family: "Georgia", serif;
+	font-size: 18px;
+	line-height: 1.1em;
+	color: #424030;
+ list-style-type: square; 
+ 
+ }
+
+
+section h2{
+	color: black;
+    display: block;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+section h4{
+ 	color: #999999;
+ 	font-size: 1.5em;
+    cursor: auto;
+    display: block;
+  
+    }
+       
+
+section h4 {
+text-align: right;
+} 
+  #searchresults { 
+display:none; 
+
+}  
+
+.recipes ul li {
+		font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+		color: #424030;
+    margin-top: 0.5em;
+    text-indent: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.recipes strong {
+font-family: Gill Sans, Verdana;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+
+}
+
+
+ .itin {
+	 	font-size: 0.9em;
+	 	text-align: justify;
+    }
+    
+ .itin h1{
+	 
+	 font-size: 300%; !important
+	 
+ }
+ 

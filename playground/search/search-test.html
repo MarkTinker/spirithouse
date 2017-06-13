@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>PHP, jQuery search demo</title>
+<link rel="stylesheet" type="text/css" href="search.css">
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.0/jquery.min.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.1.js"></script>
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+
+
+</head>
+<body> 
+<a id="autostart" href="search-results.php?itemid=278"></a>
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+    $("#autostart").fancybox({'overlayShow':true,frameWidth:
+838,frameHeight:540}).trigger('click');
+  });
+</script> 
+
+
+  
+</body>
+</html>

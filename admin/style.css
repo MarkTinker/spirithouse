@@ -1,0 +1,86 @@
+body, td
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial
+}
+
+
+
+table {
+  background-color:#eeeeee;
+  border:0px;
+}
+table td {
+  padding:3px;
+  margin:0px;
+  border:1px solid #ccc;
+}
+table td.override {
+color: red;
+}
+
+tr.we {
+ background-color:lightgray;
+}
+tr.we:hover {
+ background-color:lightpink;
+ width:100%;
+height:100%;
+}
+
+
+tr.bg:hover{
+background-color:lightpink;
+width:100%;
+height:100%;
+}
+
+
+
+#navlist
+{
+padding: 0 1px 1px;
+margin-left: 0;
+font: bold 12px Verdana, sans-serif;
+}
+
+#navlist li
+{
+list-style: none;
+margin: 0;
+border-top: 1px solid gray;
+display: inline;
+}
+
+#navlist li a
+{
+padding: 0.25em 0.5em 0.25em 0.75em;
+border-left: 1em solid #AAB;
+background: #CCD;
+text-decoration: none;
+}
+
+#navlist li a:link { color: #448; }
+#navlist li a:visited { color: #667; }
+
+#navlist li a:hover
+{
+border-color: #FE3;
+color: #FFF;
+background: #332;
+}
+
+div#tipDiv {
+padding:4px;
+color:#000;
+font-size:11px; 
+line-height:1.2;
+background-color:#E1E5F1; 
+border:1px solid #667295; 
+width:250px; 
+ }
+ 
+ table.calclasses td{
+    border-style: none;
+    background-color: none;
+}

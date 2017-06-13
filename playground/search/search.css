@@ -1,0 +1,133 @@
+body
+{ 
+color:#333333;
+font:12px/1.9 "Lucida Grande",Lucida,Verdana,sans-serif; 
+}
+
+*{ 
+margin:0;padding:0; 
+}
+
+
+
+a { 
+color:gray; 
+text-decoration:none 
+}
+
+a:hover { 
+color:#DF3D82; 
+text-decoration:underline; 
+}
+
+ul.update { 
+list-style:none;
+font-size:1.1em; 
+margin-top:10px 
+}
+
+ul.update li { 
+height:30px; 
+border-bottom:#dedede solid 1px; 
+text-align:left;
+}
+
+ul.update li.title { 
+height:30px; 
+border-bottom:#dedede solid 1px; 
+text-align:left;
+background-color: #D5D5D5;
+}
+
+ul.update li:first-child { 
+border-top:#dedede solid 1px; 
+height:30px; 
+text-align:left; 
+}
+
+#flash { margin-top:20px; 
+text-align:left; 
+}
+
+#searchresults { 
+text-align:left; 
+margin-top:20px; 
+display:none; 
+font-family:Arial, Helvetica, sans-serif; 
+font-size:16px; color:#000; 
+}
+
+.word { 
+font-weight:bold; 
+color:#000000; 
+}
+
+#search_box { 
+padding:4px; 
+border:solid 1px #666666; 
+width:300px; 
+height:30px; 
+font-size:18px;-moz-border-radius: 
+6px;-webkit-border-radius: 6px; 
+}
+
+.search_button { 
+border:#000000 solid 1px; 
+padding: 6px; color:#000; 
+font-weight:bold; 
+font-size:16px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px; 
+}
+
+.found { 
+font-weight: bold; 
+font-style: italic; 
+color: #ff0000; 
+}
+
+h2 { 
+margin-right: 70px; 
+}
+
+p { 
+font-size:13px; 
+margin-top: 10px; 
+}
+
+
+ h1 {
+	font-family: 'Josefin Sans Std Light', arial, serif; 
+	font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+
+}
+
+h2 {
+font-size:1.2em;
+margin-bottom:12px;
+margin-top:25px;
+}
+
+h4 {
+	font-family: 'Josefin Sans Std Light', arial, serif; 
+	font-size: 24px;
+  	text-shadow: 4px 4px 4px #aaa;
+	}
+
+.question {
+color:#D5D5D5;
+display:block;
+float:left;
+font-size:30px;
+font-weight:bold;
+line-height:1em;
+margin-right:11px;
+margin-top:-2px;
+}
+
+
+
+
+
+

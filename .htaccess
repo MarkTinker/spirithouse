@@ -1,0 +1,88 @@
+AddType font/otf .otf
+AddType font/ttf .ttf
+AddType application/vnd.ms-fontobject .eot
+AddType image/svg+xml .svg
+#php_flag session.use_only_cookies on
+
+
+### DISABLE mod_security firewall
+### Some rules are currently too strict and are blocking legitimate users
+### We only disable it for URLs that contain the regex below
+### The regex below should be placed between "m#" and "#" 
+### (this syntax is required when the string contains forward slashes)
+<IfModule mod_security.c>
+ <If "%{REQUEST_URI} =~ m#/admin/#">
+    SecFilterScanPOST Off
+  </If>
+</IfModule>
+
+ErrorDocument 404 /404.php 
+
+Options -Indexes
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^restaurant$            restaurant.php [L]
+RewriteRule ^kipling$            	kipling.php [L]
+RewriteRule ^locals$            	http://www.spirithouse.com.au/locals.php [L]
+RewriteRule ^school$                school2.php [L]
+RewriteRule ^vouchers$              vouchers2.php [L]
+RewriteRule ^shop$                  shop2.php [L]
+RewriteRule ^shop/books$      http://www.spirithouse.com.au/shop2.php [L]
+RewriteRule ^foodtours$             foodtours.php [L]
+RewriteRule ^mapsandinfo$           mapsandinfo.php [L]
+RewriteRule ^restaurant/food$       http://www.spirithouse.com.au/restaurant.php [L]
+RewriteRule ^restaurant/menu$       http://www.spirithouse.com.au/restaurant.php [L]
+RewriteRule ^restaurant/functions$  http://www.spirithouse.com.au/restaurant.php [L]
+RewriteRule ^restaurant/f-food$     http://www.spirithouse.com.au/restaurant.php [L]
+RewriteRule ^restaurant/wines$      http://www.spirithouse.com.au/restaurant.php [L]
+RewriteRule ^restaurant/weddings$   http://www.spirithouse.com.au/restaurant.php [L]
+RewriteRule ^restaurant/wedpack$    http://www.spirithouse.com.au/restaurant.php [L]
+RewriteRule ^restaurant/rest-book$  http://www.spirithouse.com.au/restaurant.php [L]
+RewriteRule ^restaurant/accom$      http://www.spirithouse.com.au/mapsandinfo.php [L]
+RewriteRule ^restaurant/awards$     http://www.spirithouse.com.au/restaurant.php [L]
+RewriteRule ^school/maps$           http://www.spirithouse.com.au/mapsandinfo.php [L]
+RewriteRule ^school/faq$            http://www.spirithouse.com.au/school2.php [L]
+RewriteRule ^school/accom$      	http://www.spirithouse.com.au/school_accom.php [L]
+
+
+RewriteRule ^vouchers/terms$        vouchers2.php [L]
+
+RewriteRule ^tours$                 foodtours.php [L]
+
+RewriteRule ^tours/thailand$        http://www.spirithouse.com.au/foodtours.php [L]
+RewriteRule ^tours/ayutthaya$       http://www.spirithouse.com.au/foodtours.php [L]
+RewriteRule ^tours/laos$            http://www.spirithouse.com.au/foodtours.php [L]
+RewriteRule ^tours/vietnam$         http://www.spirithouse.com.au/foodtours.php [L]
+RewriteRule ^tours/book$            http://www.spirithouse.com.au/foodtours.php [L]
+RewriteRule ^products$              index.php [L]
+RewriteRule ^meetchefs$             meetchefs.php [L]
+RewriteRule ^links$                 mapsandinfo.php [L]
+RewriteRule ^jobs$                  jobs.php [L]
+
+RewriteRule ^ultra_special_secret_book_page$	shop-special.php [L]
+
+#----- next two rules fix the linking errors in the winter newsletter ------
+RewriteRule ^ultra_special_secret_book_page/$	shop-special.php [L]
+RewriteRule ^newsletters/winter.html$	newsletter.php [R=301,L]
+RewriteRule ^newsletters/winter.html$	newsletter.php [R=301,L]	
+
+#----- redirect for the sitemap------
+                                  
+RewriteRule ^(.*)-cooking-class$    cookingclass.php [L]
+
+#----- catching google references to spirithouse ------
+RewriteRule ^gifts.php$             /shop [R=301,L]
+RewriteRule ^spiritblog/$            /funstuff [R=301,L]
+RewriteRule ^tagalong.php$           /tours [R=301,L]
+RewriteRule ^hamish/vouchers.php$    /vouchers [R=301,L]
+RewriteRule ^bookorder.php$          /shop/books-and-recipes [R=301,L]
+RewriteRule ^news.php$               /funstuff [R=301,L]
+RewriteRule ^letter.php              /funstuff [R=301,L]
+RewriteRule ^newwindow/menu.php      /restaurant/menu [R=301,L]
+RewriteRule ^recipes.htm$            /shop/books-and-recipes [R=301,L]
+     
+
+# matches on any URL like: /shop/category-name and redirs to shop.php?cat=category-name
+RewriteRule ^shop/(.*)$              shop2.php?cat=$1 [L]
+
